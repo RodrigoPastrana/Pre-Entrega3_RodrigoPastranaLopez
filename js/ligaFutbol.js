@@ -59,7 +59,6 @@ function generarFixture(equipos) {
         equipos.splice(1, 0, equipos.pop());
     }
 
-    // Vuelta (invertir roles de local y visitante)
     const vuelta = fixture.map(partido => ({
         local: partido.visitante,
         visitante: partido.local,

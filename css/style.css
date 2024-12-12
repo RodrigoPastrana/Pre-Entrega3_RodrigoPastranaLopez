@@ -8,7 +8,7 @@ body {
     background-position: center;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Cambiar a flex-start para alinear al principio */
+    align-items: flex-start; 
     height: 100vh;
     color: #fff;
     overflow-y: auto;
